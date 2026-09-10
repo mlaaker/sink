@@ -41,6 +41,14 @@
 			"id": "293cfda762f94b0e9e7d50617004fa2d"
 		}
 	],
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "sink-m13",
+			"database_id": "142fd5ab-275d-43c5-84ec-ba259d104245",
+			"migrations_dir": "drizzle"
+		}
+	],
 	"r2_buckets": [
 		{
 			"binding": "R2",
@@ -49,9 +57,7 @@
 		}
 	],
 	"triggers": {
-		"crons": [
-			"0 0 * * *"
-		]
+		"crons": ["0 0 * * *"]
 	},
 	"routes": [
 		{
